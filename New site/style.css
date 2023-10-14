@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/*Navbar*/
+.navbar-brand{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.navbar-nav{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    color: #64A19D;
+}
+
+
+/*Showcase*/
+.Showcase{
+    background-image: url("imgs/bg-masthead.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: #444444;
+    background-blend-mode: multiply;
+    padding: 15rem;
+}
+
+.Showcase-row{
+    position: relative;
+    bottom: 5rem;
+}
+
+#ShowcaseH1{
+    color:#FFFFFF80;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 6.25rem;
+    letter-spacing: 0.5rem;
+}
+/*Using Media Queries to reduce font size on smaller screens*/
+@media screen and (max-width: 992px) {
+    #ShowcaseH1 {
+      font-size: 3.125rem;
+    }
+}
+
+.ShowcaseP{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF80;
+}
+
+.btn-showcase{
+    color: white;
+    background-color: #64A19D;
+    padding: 15px 30px;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.15rem;
+
+}
+
+.btn.btn-showcase:hover{
+    color:white;
+    background-color: #235250;
+}
+
+.btn.btn-showcase:visited{
+    color: white;
+    background-color: #235250;
+    border-color: #235250;
+}
+
+
+/*About*/
+.aboutH2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.aboutP{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF80;
+
+}
+
+
+/*Project*/
+.projectH5{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.projectP{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray; 
+}   
+
+.misty{
+    background-color: black;
+}
+
+@media screen and (min-width: 992px) {
+    .mistytext {
+        position: relative;
+        top: 4rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .mistytext {
+        position: relative;
+        top: 7rem;
+    }
+}
+
+
+/*Sign-up*/
+.signup{
+    background-image: url("imgs/bg-signup.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: #444444;
+    background-blend-mode: multiply;
+    padding: 5rem;
+}
+
+.signup-text{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.btn-signup{
+    color: white;
+    background-color: #64A19D;
+    padding: 15px 30px;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.15rem;
+}
+
+
+.btn.btn-signup:hover{
+    color:white;
+    background-color: #235250;
+}
+
+
+@media(min-width: 768px){
+    .signup-form{
+        width: 50%;
+        position: relative;
+        left: 100px;
+    }
+
+    .btn-signup{
+        position: relative;
+        right: 110px;
+    }
+}
+
+@media(min-width: 992px){
+    .signup-form{
+        width: 50%;
+        position: relative;
+        left: 150px;
+    }
+
+    .btn-signup{
+        position: relative;
+        right: 160px;
+    }
+}
+
+
+@media(min-width: 1200px){
+    .signup-form{
+        width: 50%;
+        position: relative;
+        left: 220px;
+    }
+
+    .btn-signup{
+        position: relative;
+        right: 270px;
+    }
+}
+
+
+/*Contact*/
+.contact{
+    background-color: black;
+}
+
+.contact-card{
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: #64A19D 5px solid;
+}
+
+.bi-map{
+    color: #64A19D;
+}
+
+.bi-phone{
+    color: #64A19D;
+}
+
+.bi-envelope{
+    color: #64A19D;
+}
+
+
+.card-subtitle{
+    font-size: 13px;
+    color: black;
+}
+
+.card-text{
+    font-size: 13px;
+    color: gray;
+    letter-spacing: 2px;
+}
+
+.line {
+    border-bottom: 5px solid #64A19D;
+    width: 10%;
+    position: relative;
+    left: 155px;
+  }
+
+.bi-logos {
+    background: #444444;
+    color: gray;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 15px 15px;
+
+}
+
+.bi-logos:hover{
+    color: #FFFFFF80;
+}
+
+.footer-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444444;
+    font-size: 1rem;
+}
